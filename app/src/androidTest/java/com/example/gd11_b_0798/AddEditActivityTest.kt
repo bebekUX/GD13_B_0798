@@ -62,7 +62,7 @@ class AddEditActivityTest {
                 )
             )
         )
-        textInputEditText.perform(scrollTo(), replaceText("Q"), closeSoftKeyboard())
+        textInputEditText.perform(scrollTo(), replaceText("Briantana"), closeSoftKeyboard())
 
         val materialButton2 = onView(
             allOf(
@@ -95,7 +95,7 @@ class AddEditActivityTest {
                 )
             )
         )
-        textInputEditText2.perform(scrollTo(), replaceText("1"), closeSoftKeyboard())
+        textInputEditText2.perform(scrollTo(), replaceText("200710798"), closeSoftKeyboard())
 
         val materialButton3 = onView(
             allOf(
